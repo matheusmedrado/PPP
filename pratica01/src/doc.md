@@ -400,14 +400,35 @@ Durante o desenvolvimento, identifiquei alguns pontos que poderiam ser aprimorad
 ### Screenshots da Execução
 Abaixo estão as capturas de tela do sistema em funcionamento:
 
-![Tela Principal](screenshots/tela_principal.png)
-*Tela principal do sistema*
+![Tela inicial do sistema mostrando o cadastro de livros vazio](screenshots/tela_inicial.png)
+*Tela inicial do sistema mostrando o formulário de cadastro de livros*
 
-![Cadastro de Livro](screenshots/cadastro_livro.png)
-*Interface de cadastro de livros*
+<img src="screenshots/tela_inicial.png" alt="Tela inicial do sistema mostrando o cadastro de livros vazio" width="800"/>
 
-![Cadastro de Revista](screenshots/cadastro_revista.png)
-*Interface de cadastro de revistas*
+![Preenchimento do cadastro de livro](screenshots/cadastro_livro_preenchido.png)
+*Preenchimento do formulário de cadastro de livros com dados do mangá One Piece*
+
+<img src="screenshots/cadastro_livro_preenchido.png" alt="Preenchimento do cadastro de livro" width="800"/>
+
+![Confirmação do cadastro do livro](screenshots/cadastro_livro_confirmado.png)
+*Confirmação do cadastro do livro na listagem*
+
+<img src="screenshots/cadastro_livro_confirmado.png" alt="Confirmação do cadastro do livro" width="800"/>
+
+![Preenchimento do cadastro de revista](screenshots/cadastro_revista_preenchido.png)
+*Preenchimento do formulário de cadastro de revistas com dados da revista 4 rodas*
+
+<img src="screenshots/cadastro_revista_preenchido.png" alt="Preenchimento do cadastro de revista" width="800"/>
+
+![Confirmação do cadastro da revista](screenshots/cadastro_revista_confirmado.png)
+*Listagem mostrando tanto o livro quanto a revista cadastrados*
+
+<img src="screenshots/cadastro_revista_confirmado.png" alt="Confirmação do cadastro da revista" width="800"/>
+
+![Console mostrando o log de operações](screenshots/console_log.png)
+*Log do console mostrando as operações realizadas no sistema*
+
+<img src="screenshots/console_log.png" alt="Console mostrando o log de operações" width="800"/>
 
 ### Como Executar
 1. Clone o repositório

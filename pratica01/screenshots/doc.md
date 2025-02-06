@@ -403,10 +403,10 @@ Abaixo estão as capturas de tela do sistema em funcionamento:
 ### Screenshots da Execução
 
 Tela de cadastro de livros:
-![Tela de Cadastro de Livros](screenshots/1.png)
+![Tela de Cadastro de Livros](1.png)
 
 Tela de listagem de publicações:
-![Tela de Listagem](screenshots/2.png)
+![Tela de Listagem](2.png)
 
 
 

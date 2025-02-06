@@ -406,10 +406,10 @@ Tela Principal:
 Tela de cadastro de Livros:  
 <img src="2.png" width="600" style="border-radius: 15px;">
 
-Tela de cadastro de Revistas:
-<img src="4.png" width="600" style="border-radius: 15px;">
+Tela de cadastro de Revistas:  
+<img src="3.png" width="600" style="border-radius: 15px;">
 
-Tela de Listagens de Publicações:
+Tela com as listagens:  
 <img src="5.png" width="600" style="border-radius: 15px;">
 
 

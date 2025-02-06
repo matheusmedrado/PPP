@@ -400,22 +400,18 @@ Durante o desenvolvimento, identifiquei alguns pontos que poderiam ser aprimorad
 ### Screenshots da Execução
 Abaixo estão as capturas de tela do sistema em funcionamento:
 
-Tela de cadastro de livros:  
-<svg width="600" height="auto" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
-  <mask id="mask" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="400">
-    <rect x="0" y="0" width="600" height="400" rx="25" ry="25" fill="white"/>
-  </mask>
-  <image x="0" y="0" width="600" height="400" href="1.png" mask="url(#mask)"/>
-</svg>
+Tela Principal:  
+<img src="1.png" width="600" style="border-radius: 15px;">
 
-Tela de listagem de publicações:  
-<svg width="600" height="auto" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
-  <mask id="mask2" maskUnits="userSpaceOnUse" x="0" y="0" width="600" height="400">
-    <rect x="0" y="0" width="600" height="400" rx="25" ry="25" fill="white"/>
-  </mask>
-  <image x="0" y="0" width="600" height="400" href="2.png" mask="url(#mask2)"/>
-</svg>
+Tela de cadastro de Livros:  
+<img src="2.png" width="600" style="border-radius: 15px;">
 
+Tela de cadastro de Revistas:
+<img src="4.png" width="600" style="border-radius: 15px;">
+
+Tela de Listagens de Publicações:
+<img src="3.png" width="600" style="border-radius: 15px;">
+<img src="5.png" width="600" style="border-radius: 15px;">
 
 
 ### Como Executar
@@ -429,7 +425,7 @@ Tela de listagem de publicações:
 
 ---
 Desenvolvido por Matheus Medrado Ferreira
-Disciplina: Programação Orientada a Objetos
+Disciplina: Princípios e Padrões de Projetos
 
 
 

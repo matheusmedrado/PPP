@@ -410,7 +410,6 @@ Tela de cadastro de Revistas:
 <img src="4.png" width="600" style="border-radius: 15px;">
 
 Tela de Listagens de Publicações:
-<img src="3.png" width="600" style="border-radius: 15px;">
 <img src="5.png" width="600" style="border-radius: 15px;">
 
 

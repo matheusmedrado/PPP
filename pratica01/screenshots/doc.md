@@ -2,7 +2,7 @@
 
 Sistema para gerenciar o cadastro de livros e revistas em uma biblioteca, utilizando Java e interface gráfica Swing.
 
-### Organização do Código-Fonte
+#### Organização do Código-Fonte
 
 A estrutura do projeto foi organizada da seguinte forma:
 
@@ -389,7 +389,7 @@ public class ControleBibliotecaGUI {
 - Implementei validações nos construtores para garantir dados consistentes
 - Separei a interface gráfica em painéis distintos para melhor organização
 
-### Possíveis Melhorias e Reflexões
+#### Possíveis Melhorias e Reflexões
 Durante o desenvolvimento, identifiquei alguns pontos que poderiam ser aprimorados e dificuldades encontradas:
 
 1. Algumas classes ficaram com muitas responsabilidades.
@@ -397,7 +397,7 @@ Durante o desenvolvimento, identifiquei alguns pontos que poderiam ser aprimorad
 3. O código da interface gráfica poderia ser melhor modularizado, mas minha falta de experiência com Swing se mostrou uma grande limitação.
 4. Tive desafios em implementar uma arquitetura mais limpa devido ao meu conhecimento aind limitado em padrões de projeto.
 
-### Screenshots da Execução
+#### Screenshots da Execução
 Abaixo estão as capturas de tela do sistema em funcionamento:
 
 Tela Principal:  
@@ -423,8 +423,8 @@ Tela com as listagens:
 - IDE com suporte a GUI (Swing)
 
 ---
-Desenvolvido por Matheus Medrado Ferreira
-Disciplina: Princípios e Padrões de Projetos
+Desenvolvido por Matheus Medrado Ferreira - Princípios e Padrões de Projetos
+
 
 
 

@@ -402,6 +402,15 @@ Abaixo estão as capturas de tela do sistema em funcionamento:
 
 ### Screenshots da Execução
 
+### Screenshots da Execução
+
+Tela de cadastro de livros:  
+<img src="1.png" width="600" style="border-radius: 15px;">
+
+Tela de listagem de publicações:  
+<img src="2.png" width="600" style="border-radius: 15px;">
+
+
 Tela de cadastro de livros:
 ![Tela de Cadastro de Livros](1.png)
 

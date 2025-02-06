@@ -400,12 +400,15 @@ Durante o desenvolvimento, identifiquei alguns pontos que poderiam ser aprimorad
 ### Screenshots da Execução
 Abaixo estão as capturas de tela do sistema em funcionamento:
 
-![Tela inicial do sistema](screenshots/1.png)
-![Cadastro de um novo livro](screenshots/2.png)
-![Livro cadastrado na listagem](screenshots/3.png)
-![Cadastro de uma nova revista](screenshots/4.png)
-![Sistema com livro e revista cadastrados](screenshots/5.png)
-![Log de execução do sistema](screenshots/log.png)
+### Screenshots da Execução
+
+Tela de cadastro de livros:
+![Tela de Cadastro de Livros](screenshots/1.png)
+
+Tela de listagem de publicações:
+![Tela de Listagem](screenshots/2.png)
+
+
 
 ### Como Executar
 1. Clone o repositório

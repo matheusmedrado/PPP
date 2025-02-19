@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Analysis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <style>
+        body {
+            font-family: 'Fira Code', monospace;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            padding: 20px;
+        }
+
+        pre, code {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        h1, h2, h3 {
+            color: #58a6ff;
+        }
+
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Análise do código: Antes e Depois</h1>
+
+    <!-- Your content here -->
+
+    <h2>6. Código Atualizado em Sua Totalidade</h2>
+
+    <h3>Interfaces</h3>
+    <pre><code class="language-java">
+
+public interface Duravel {
+int getDuracao();
+}
+</code></pre>
+
+    <pre><code class="language-java">
+
+public interface Autoravel {
+String getAutor();
+}
+</code></pre>
+
+    <h3>Classes Formularios</h3>
+    <pre><code class="language-java">
+
+import javax.swing._;
+import java.util.function.Consumer;
+import java.awt._;
+
+public abstract class FormularioBase extends JPanel {
+protected JTextField txtTitulo;
+protected JTextField txtAno;
+protected ControleBiblioteca controle;
+protected Consumer<Void> onItemAdded;
+
+    public FormularioBase(ControleBiblioteca controle, Consumer<Void> onItemAdded) {
+        this.controle = controle;
+        this.onItemAdded = onItemAdded;
+        setLayout(new GridLayout(0, 2, 5, 5));
+        criarCamposBasicos();
+    }
+
+    protected void criarCamposBasicos() {
+        txtTitulo = new JTextField();
+        txtAno = new JTextField();
+
+        add(new JLabel("Título:"));
+        add(txtTitulo);
+        add(new JLabel("Ano:"));
+        add(txtAno);
+    }
+
+    protected boolean validarCamposBasicos() {
+        return !txtTitulo.getText().trim().isEmpty() &&
+                !txtAno.getText().trim().isEmpty();
+    }
+
+    protected abstract void limparCampos();
+    protected abstract ItemBibliografico criarItem();
+
+}
+</code></pre>
+
+    <!-- Add more code blocks as needed -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-java.min.js"></script>
+
+</body>
+</html>
